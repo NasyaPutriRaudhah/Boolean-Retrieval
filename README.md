@@ -5,6 +5,12 @@ Proyek ini terdiri dari 3 modul utama: preprocessing, indexing, dan boolean sear
 
 ---
 
+## Set Up Java 
+- Buka Environmental Variables
+- Pada bagian JAVA_HOME pastikan variables valuenya : C:\Program Files\Java\jdk-21
+- Pada bagian Path pastikan ada %JAVA_HOME%\bin
+
+
 ## 📂 Struktur File
 
 - `preprocess.py`  
