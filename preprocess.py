@@ -27,4 +27,5 @@ def light_clean(s: str) -> str:
 os.makedirs("corpus", exist_ok=True)
 with open("corpus/docs.jsonl", "w", encoding="utf-8") as f:
     for did, txt in docs:
+
         f.write(json.dumps({"id": did, "contents": light_clean(txt)}) + "\n")
