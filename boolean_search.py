@@ -17,7 +17,8 @@ queries = [
     "dog AND cat",
     "dog OR cat",
     "dog AND NOT cat",
-    "retrieval AND (bm25 OR (tf AND idf))"
+    "retrieval AND (bm25 OR (tf AND idf))",
+    "retrieval AND (neural or bm25)"
 ]
 
 for query_str in queries:
